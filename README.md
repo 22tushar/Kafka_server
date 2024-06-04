@@ -1,4 +1,5 @@
 Commands
+
 Start Zookeper Container and expose PORT 2181.
 docker run -p 2181:2181 zookeeper
 Start Kafka Container, expose PORT 9092 and setup ENV variables.
@@ -9,6 +10,7 @@ docker run -p 9092:9092 \
 confluentinc/cp-kafka
 
 Running Locally
+
 Run Multiple Consumers
 node consumer.js <GROUP_NAME>
 Create Producer
